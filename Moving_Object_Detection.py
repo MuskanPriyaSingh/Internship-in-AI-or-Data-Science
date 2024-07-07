@@ -80,7 +80,7 @@ while True:
     # Update firstFrame periodically to detect ongoing movements
     firstFrame = gaussianImg
     
-    key = cv2.waitKey(1) & 0xF
+    key = cv2.waitKey(1) & 0xFF
     if key == ord("q"):
         break
 
